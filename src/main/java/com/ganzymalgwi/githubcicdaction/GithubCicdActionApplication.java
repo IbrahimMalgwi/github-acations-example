@@ -13,7 +13,7 @@ public class GithubCicdActionApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to CI/CD";
+		return "Welcome to CI/CD practice";
 	}
 
 	public static void main(String[] args) {
